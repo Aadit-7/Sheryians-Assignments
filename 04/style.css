@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "iPhone";
+  src: url(./sf-pro-text_semibold.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: iPhone;
+}
+
+.navbar {
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: 50px;
+  font-weight: 200;
+}
+
+.container {
+  background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_medium_2x.jpg);
+  height: 80%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 60px;
+  margin-top: 10px;
+}
+.container p {
+  font-size: 30px;
+  margin-top: 6px;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.container button {
+  margin-top: 20px;
+  font-size: 17px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.btn1 {
+  color: white;
+  font-weight: 600;
+  background-color: royalblue;
+  border: none;
+}
+.btn2 {
+  color: white;
+  font-weight: 600;
+  background-color: black;
+  color: royalblue;
+  border: 1px solid royalblue;
+}
+
+.btn2:hover {
+  background-color: royalblue;
+  color: white;
+}
+
+.container-2 {
+  background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-air/hero_iphone_air__0gxyavihpiqu_medium_2x.jpg);
+  height: 80%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.container-2 h1 {
+  font-size: 50px;
+  margin-top: 10px;
+}
+.container-2 p {
+  font-size: 30px;
+  margin-top: 6px;
+}
+.container-2 button {
+  margin-top: 20px;
+  font-size: 17px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.container-2 .btn2 {
+  background-color: white;
+}
