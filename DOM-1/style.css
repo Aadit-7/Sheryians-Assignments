@@ -1,0 +1,82 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+#box {
+  height: 400px;
+  width: 400px;
+  background-color: red;
+  border: 5px solid white;
+  border-radius: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.95);
+} */
+
+/* ASSIGNMENT */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+h1 {
+  background-color: aqua;
+  font-size: 50px;
+  padding: 20px 20px;
+  border-radius: 10px;
+  color: black;
+
+}
+
+button {
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+}
+
+button:active {
+  transform: scale(0.95);
+}
