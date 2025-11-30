@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.keys {
+  height: 500px;
+  width: 90%;
+  background-color: rgba(41, 39, 39, 0.277);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.keys > div {
+  height: 100%;
+  width: 9.5%;
+  border: 1px solid white;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+  user-select: none;
+  margin: 0px 5px;
+  border-radius: 5px;
+}
+
+.keys > div:active {
+  scale: 0.95;
+}
