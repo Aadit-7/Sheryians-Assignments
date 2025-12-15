@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  anchor-name: --a-anchor;
+
+  /* transition: all 1s linear;
+  gap: 40px;
+*/
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.box:hover {
+  anchor-name: --a-anchor;
+  /* transform: scale(1.2) !important; */
+}
+
+/* body:has(.box:hover) .box {
+  transform: scale(0.8);
+  transition: all 0.3s linear;
+} */
+
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+
+.anchor {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  top: anchor(top);
+  left: anchor(left);
+  bottom: anchor(bottom);
+  right: anchor(right);
+  position: absolute;
+  position-anchor: --a-anchor;
+  transition: all 0.3s linear;
+  mix-blend-mode: difference;
+  pointer-events: none;
+}
