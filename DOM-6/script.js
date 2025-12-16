@@ -15,6 +15,7 @@ document.body.addEventListener("keydown", (dets) => {
   if (key === "KeyA") {
     audioA.currentTime = 0;
     audioA.play();
+    Key.classList.add("active");
   } else if (key === "KeyS") {
     audioS.currentTime = 0;
     audioS.play();

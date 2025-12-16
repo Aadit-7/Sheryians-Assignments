@@ -43,6 +43,3 @@ body {
   border-radius: 5px;
 }
 
-.keys > div:active {
-  scale: 0.95;
-}
