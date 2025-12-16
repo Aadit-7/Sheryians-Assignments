@@ -22,3 +22,13 @@ btn.addEventListener("click", () => {
     console.log(`Downloaded in ${num / 10} seconds`);
   }, num * 100);
 });
+
+let box = document.querySelector(".box");
+
+box.addEventListener("mousemove", (e) => {
+  box.style.setProperty("--x", e.clientX + "px");
+  box.style.setProperty("--y", e.clientY + "px");
+  console.log(e);
+
+  //The difference between clientX and offsetX is that offsetX is the position inside the element, while clientX is the position in the viewport.
+});
