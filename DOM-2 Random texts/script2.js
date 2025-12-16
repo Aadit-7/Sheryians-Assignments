@@ -3,13 +3,13 @@ let body = document.querySelector("body");
 
 let arr = [
   "Biscuit is rescist",
-  "Biscuit is hate",
   "Biscuit is @sshole",
   "Biscuit is pedofile",
   "Biscuit is bitch",
   "Biscuit is mc",
   "Biscuit is bc",
   "Biscuit is nigger",
+  "Biscuit is bloody mf",
 ];
 
 btn.addEventListener("click", function () {
