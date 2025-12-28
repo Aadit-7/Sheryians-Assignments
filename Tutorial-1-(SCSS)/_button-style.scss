@@ -1,0 +1,18 @@
+/*
+
+Firstly weite this mixin in the main scss file and then make another file with "_" as a first letter and then just copay pasete the mixin code from the original file and then include this in the main file
+
+this is the easiest way to do this effectively
+
+*/
+
+@mixin btn($bg-color, $color) {
+  padding: 10px 25px;
+  color: $color;
+  background-color: $bg-color;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
